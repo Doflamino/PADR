@@ -1,0 +1,93 @@
+body
+{
+    background-image: url(../img/back_login.jpg);
+    background-size: cover;
+}
+
+
+.form-control {
+    width: 100%;
+    display: inline-block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#error1{
+    display: none;
+}
+#carre{
+    background-color: #FFFFFF;
+    /* height: 450px; */
+    width: 450px;
+    margin: auto;
+    padding: 57px 15px;
+    display: none;
+}
+.text-muted {
+    color: #b7b7b7!important;
+    margin-bottom: -30px;
+}
+
+#carrelogo
+{
+    background-color: #FFFFFF;
+    opacity: 1;
+    width: 120px;
+    height: 130px;
+    border-radius: 0px 0px 5px 5px;
+    border: 2px solid white;
+    margin-left: 1225px;
+    box-shadow: inset 3px -10px 25px #828282;
+    /* padding: 10px; */
+    border-top: none;
+
+
+}
+#checkbox
+{
+    border-radius: .25rem;
+}
+
+#mat,#mdp
+{
+    border-radius: 0px;
+    border: 1px solid #333;
+    height: 50px;
+    margin-top: -9px;
+    display: block;
+}
+label
+{
+    color: #333;
+    margin-left: 15px
+}
+#logo
+{
+    height: 95px;
+
+    margin: 12px;
+    
+
+}
+
+
+#formulaire
+{
+    line-height: 40px;
+    margin: auto;
+}
+.btn
+{
+    border-radius: 0%;
+    background-color: #004085;
+    border-color: none; 
+    font-size: 16px;
+}
+
+::-webkit-scrollbar { display: none; }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Login | PADREMOVE</title>
+</head>
+<body>
+    <div id = 'carrelogo'>
+        <img src="../img/fd_logo.png" alt="logo" id="logo">
+    </div>
+    <div id ="carre">
+        <div class="container">
+            <form action="" id="formulaire">
+                <h2> Connexion </h2>
+                <small class="text-muted" id="error1">Erreur de connexion</small> <br>
+                <small class="text-muted"> Matricule </small>
+                <input id="mat" type="text" class="form-control" placeholder="Entrez votre matricule">
+                <small class="text-muted"> Mot de Passe </small>
+                <input id="mdp" type="password" class="form-control" placeholder="Entrez votre mot de passe">
+                <p><input id="checkbox" name="checkbox" type="checkbox" ><label for="checkbox"> Rester connecté ? </label></p>
+                <button id="connexion" type="submit" class="btn btn-primary btn-lg btn-block" id="bouton"> Se connecter</button>
+            </form>  
+        </div>
+   </div>
+</body>
+<!-- If the require doesn't work, include first the jQuery file
+<script src="jquery-3.0.0.min.js"></script>-->
+<script>window.$ = window.jQuery = require('./../js/jquery.min.js');</script>
+
+<script src="../bootstrap/dist/js/bootstrap.min.js "></script>
+<script src="../js/recup.js"></script>
+<script src="../js/jqcode.js"></script>
+</html>
